@@ -1,0 +1,19 @@
+.quantity-selector {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+  .quantity-decrement,
+  .quantity-increment {
+    background-color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .quantity-value {
+    margin: 0 10px;
+  }
+}

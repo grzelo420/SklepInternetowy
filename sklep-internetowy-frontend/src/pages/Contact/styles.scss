@@ -1,0 +1,33 @@
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.contact-container p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.contact-info p,
+.social-media p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.social-media ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-media li {
+  display: inline;
+  margin-right: 20px;
+  font-size: 1.1em;
+}

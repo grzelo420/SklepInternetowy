@@ -1,0 +1,55 @@
+.size-selector {
+  &.error {
+    width: 310px;
+    padding: 0px;
+    border: 2px solid red;
+  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .size-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    .size-option {
+      padding: 10px 15px;
+      border: 1px solid #ccc;
+      background-color: #fff;
+      cursor: pointer;
+      text-align: center;
+      min-width: 50px;
+      border-radius: 4px;
+      &:hover {
+        background-color: #f0f0f0;
+      }
+      &.selected {
+        border-color: #000;
+        font-weight: bold;
+        background-color: #d3cfcf;
+      }
+    }
+  }
+}
+
+.size__error {
+  color: red;
+}
+
+.add-to-cart-btn {
+  cursor: pointer;
+  margin-top: 30px;
+  width: 150px;
+  height: 40px;
+  border-radius: 6px;
+  font-weight: 400;
+  color: white;
+  background-color: black;
+  &:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  &:hover {
+    background-color: #313131;
+  }
+}
